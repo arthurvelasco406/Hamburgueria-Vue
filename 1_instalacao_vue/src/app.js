@@ -7,4 +7,15 @@ const myNameApp = {
     }
 }
 
+const outroNameApp = {
+    data(){
+        return{
+            name: "Pedro",
+            age: "20"
+        }
+    }
+}
+
 Vue.createApp(myNameApp).mount("#app")
+
+Vue.createApp(outroNameApp).mount("#outroApp")
